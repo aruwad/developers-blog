@@ -1,3 +1,5 @@
+# Definition of Machine Learning.
+Data-based approch of AI.
 # Ways of Classifying ML Models.
 ### 1. Whether target variable is in trainging set.
 - Supervised learning: o.
