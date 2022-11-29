@@ -3,34 +3,37 @@
 - Classification (discrete target variable).
 - Regression (continuous target variable).
 ### 2. Pipeline Construction.
-- From start to end of the whole process.
+- From start to end of whole process.
 - Component.
-  - Each unit of pipeline.
+  - Each step of pipeline.
   - Independent process to other components.
   - Asyncronized update to other components.
 ### 3. Construction of Technical and Concrete Parts.
+- Models.
 - Uni Variate Problem/Multi Variate Problem.
-### 4. Performance Measurement.
+### 4. Selection of Performance Measurement.
 How to determine accuracy.
-- RMSE (root mean square error).
+- RMSE (Root Mean Square Error).
   - In regression.
   - L2 norm.
   - $RMSE(X,h)=\sqrt{\frac{1}{m}\displaystyle\sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2}$
-- MAE (mean absolute error).
+- MAE (Mean Absolute Error).
   - In regression.
   - L1 norm.
   - $MAE(X,h)=\frac{1}{m}\displaystyle\sum_{i=1}^{m}\left\lvert h(x^{(i)})-y^{(i)}\right\rvert$
-### 5. Installation of Anaconda & Virtual Environment.
+### 5. Installation of Virtual Environment.
 - Virtual Environment.
-  - Independnet Running Environment of Python.
-  - Can have different version of package from other virtual environment.
+  - Running Environment of Python Independednt to Each Other.
+  - Can have different versions of packages from other virtual environments.
 ### 6. Data Validation.
-Check data is normal.
-### 7. Split Test Set.
+Checking normality and correctness of data itself (regardless of problem).
+- Pandas: head(), info(), value_counts(), describe(), hist(), etc.
+### 7. Split Test Set from Train Set.
 ### 8. EDA (Exploratory Data Analysis) with Train Set.
-Analyze data using various ways (mean, std, histogram, etc).
+Analysis of data using various ways (mean, std, histogram, etc).
+- Matplotlib.
 ### 9. Data Rendering (including Preprocessing).
-- Nominal variable/Numerical variable.
-- Unity of unit.
-### 10. Model Seclection, Training, Test, Tuning, Final Model.
+- Nominal Variable/Numerical Variable Cheking.
+- Unity of Various Unit.
+### 10. Model Seclection, Training, Test, Performance Improvement (Tuning), Final Model Release.
 ### 11. Monitoring and Maintenance.
