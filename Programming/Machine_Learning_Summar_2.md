@@ -32,5 +32,5 @@ Analyze data using various ways (mean, std, histogram, etc).
 ### 9. Data Rendering (including Preprocessing).
 - Nominal variable/Numerical variable.
 - Unity of unit.
-### 10. Model Seclection, Training, Test, Tuning, Fianl Model.
+### 10. Model Seclection, Training, Test, Tuning, Final Model.
 ### 11. Monitoring and Maintenance.
