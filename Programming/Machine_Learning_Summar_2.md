@@ -15,12 +15,17 @@
 How to determine accuracy.
 - RMSE (Root Mean Square Error).
   - In regression.
-  - L2 norm.
+  - $L_2$ norm.
   - $RMSE(X,h)=\sqrt{\frac{1}{m}\displaystyle\sum_{i=1}^{m}(h(x^{(i)})-y^{(i)})^2}$
 - MAE (Mean Absolute Error).
   - In regression.
-  - L1 norm.
+  - $L_1$ norm.
   - $MAE(X,h)=\frac{1}{m}\displaystyle\sum_{i=1}^{m}\left\lvert h(x^{(i)})-y^{(i)}\right\rvert$
+ > $L_k$ norm.
+ > - Scalar: one number.
+ > - Vector: one assembly of scalars (e.g. $v = <1, -1, 2>$).
+ > - Norm $(L_K$ norm): one-number representation of vector.
+ >    - $L_k$ norm of $v$ = $(\lvert v_1 \rvert+\dots +\lvert v_d \rvert^k)^\frac{1}{k}$ (d: number of elements of vector)
 ### 5. Installation of Virtual Environment.
 - Virtual Environment.
   - Independent Running Environment by Project.
