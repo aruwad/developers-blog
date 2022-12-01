@@ -9,7 +9,7 @@
   - Independent process to other components.
   - Asyncronized update to other components.
 ### 3. Construction of Technical and Concrete Parts.
-- Models.
+- In Regard of Models.
 - Uni Variate Problem/Multi Variate Problem.
 ### 4. Selection of Performance Measurement.
 How to determine accuracy.
@@ -23,15 +23,14 @@ How to determine accuracy.
   - $MAE(X,h)=\frac{1}{m}\displaystyle\sum_{i=1}^{m}\left\lvert h(x^{(i)})-y^{(i)}\right\rvert$
 ### 5. Installation of Virtual Environment.
 - Virtual Environment.
-  - Running Environment of Python Independednt to Each Other.
+  - Independent Running Environment by Project.
   - Can have different versions of packages from other virtual environments.
 ### 6. Data Validation.
 Checking normality and correctness of data itself (regardless of problem).
-- Pandas: head(), info(), value_counts(), describe(), hist(), etc.
 ### 7. Split Test Set from Train Set.
 ### 8. EDA (Exploratory Data Analysis) with Train Set.
 Analysis of data using various ways (mean, std, histogram, etc).
-- Matplotlib.
+- Using Pandas, Numpy, Matplotlib Libraries.
 ### 9. Data Rendering (including Preprocessing).
 - Nominal Variable/Numerical Variable Cheking.
 - Unity of Various Unit.
