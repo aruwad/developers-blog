@@ -30,6 +30,11 @@ How to determine accuracy.
 - Virtual Environment.
   - Independent Running Environment by Project.
   - Can have different versions of packages from other virtual environments.
+- Process (in Conda Prompt).
+  - Creation: conda create -n *name* (python=*version*)
+  - Avtivation: conda activate *name*
+  - Deactivate: conda deactivate
+  - Delete: conda remove --name *name* --all 
 ### 6. Data Validation.
 Checking normality and correctness of data itself (regardless of problem).
 ### 7. Split Test Set from Train Set.
