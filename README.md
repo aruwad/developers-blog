@@ -1,3 +1,5 @@
 # developers-blog
 Programming, machine Learning, and related domain knowledge.
-sdfsdfsdfsdf
+
+doong's summary since 2022.12.08.
+
